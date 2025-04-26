@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.defaultProfile.windows": "Zephyr IDE Terminal",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}\\.vscode\\compile_commands.json",
+    "cmake.configureOnOpen": false
+}

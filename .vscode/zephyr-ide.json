@@ -1,0 +1,37 @@
+{
+  "projects": {
+    "hello_world": {
+      "rel_path": "examples\\hello_world",
+      "name": "hello_world",
+      "buildConfigs": {
+        "build\\esp32_devkit1_wroom\\esp32\\procpu": {
+          "relBoardDir": "boards",
+          "board": "esp32_devkit1_wroom/esp32/procpu",
+          "relBoardSubDir": "esp32_devkit_wroom",
+          "name": "build\\esp32_devkit1_wroom\\esp32\\procpu",
+          "westBuildArgs": "",
+          "westBuildCMakeArgs": " -DCONFIG_NO_OPTIMIZATIONS=y",
+          "confFiles": {
+            "config": [],
+            "extraConfig": [],
+            "overlay": [],
+            "extraOverlay": []
+          },
+          "runnerConfigs": {
+            "esp32": {
+              "runner": "esp32",
+              "name": "esp32",
+              "args": ""
+            }
+          }
+        }
+      },
+      "confFiles": {
+        "config": [],
+        "extraConfig": [],
+        "overlay": [],
+        "extraOverlay": []
+      }
+    }
+  }
+}
