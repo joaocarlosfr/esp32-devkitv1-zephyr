@@ -1,0 +1,6 @@
+board:
+  name: esp32_devkit1_wroom
+  full_name: ESP32-DevKit1-WROOM
+  vendor: espressif
+  socs:
+  - name: esp32
