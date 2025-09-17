@@ -83,7 +83,7 @@ To build the application, run the following command:
 
 ```shell
 cd esp32-devkitv1-zephyr
-west build -b esp32_devkit1_wroom/esp32/procpu examples/hello_world -DBOARD_ROOT=../../
+west build -p always -b esp32_devkit1_wroom/esp32/procpu examples/hello_world -DBOARD_ROOT=../../
 ```
 ### Flash
 
