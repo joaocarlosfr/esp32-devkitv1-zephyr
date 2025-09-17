@@ -1,4 +1,4 @@
-# esp32-devkitv1-zephyr  
+# ESP32 Devkitv1 Zephyr  
 Repository to simplify your journey on Zephyr RTOS using the ESP-WROOM-32 DevKit V1 module.  
   
 ### Install Linux required dependecies  
@@ -13,12 +13,12 @@ sudo apt install --no-install-recommends git cmake ninja-build gperf \
 
 1. Create a new virtual environment:  
 ```shell
-python3 -m venv ~/zephyrproject/.venv
+python3 -m venv .venv
 ```
 
 2. Activate the virtual environment:  
 ```shell
-source ~/zephyrproject/.venv/bin/activate
+source ~/.venv/bin/activate
 ```
 
 3. Install west:  
@@ -65,7 +65,7 @@ sudo udevadm control --reload
 
 ### Initialization
 
-The first step is to initialize the workspace folder (``workspace``) where
+1. The first step is to initialize the workspace folder (``workspace``) where
 the ``esp32-devkitv1-zephyr`` and all Zephyr modules will be cloned. Run the following
 command:  
 
@@ -79,7 +79,7 @@ west update
 
 ### Building and running
 
-To build the application, run the following command:  
+1. To build the application, run the following command:  
 
 ```shell
 cd esp32-devkitv1-zephyr
