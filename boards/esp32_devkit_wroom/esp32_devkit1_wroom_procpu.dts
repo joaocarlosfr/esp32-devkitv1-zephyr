@@ -31,6 +31,13 @@
 		};
 	};
 
+	leds {
+    	led0: led_0 {
+        gpios = <&gpio0 2 GPIO_ACTIVE_HIGH>; /* Configuração GPIO */
+        label = "LED_0"; /* Rótulo */
+    	};
+	};
+
 	chosen {
 		zephyr,sram = &sram1;
 		zephyr,console = &uart0;
