@@ -85,3 +85,10 @@ To build the application, run the following command:
 cd esp32-devkitv1-zephyr
 west build -b esp32_devkit1_wroom/esp32/procpu examples/hello_world -DBOARD_ROOT=../../
 ```
+### Flash
+
+To flash the application after building, just run:
+```shell
+west flash
+```
+Remember to attach esp32-devkitv-wroom usb cable before run the command!
