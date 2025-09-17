@@ -59,7 +59,7 @@ cd zephyr-sdk-0.17.0
 
 4. Install udev rules, which allow you to flash most Zephyr boards as a regular user:  
 ```shell
-sudo cp ~/zephyr-sdk-0.17.4/sysroots/x86_64-pokysdk-linux/usr/share/openocd/contrib/60-openocd.rules /etc/udev/rules.d
+sudo cp ~/zephyr-sdk-0.17.0/sysroots/x86_64-pokysdk-linux/usr/share/openocd/contrib/60-openocd.rules /etc/udev/rules.d
 sudo udevadm control --reload
 ```  
 
