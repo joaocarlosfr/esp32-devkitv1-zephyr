@@ -92,3 +92,10 @@ To flash the application after building, just run:
 west flash
 ```
 Remember to attach esp32-devkitv-wroom usb cable before run the command!
+
+### Serial Monitor
+
+To read logs and print's you can run the following command after flash:
+```shell
+west espressif monitor
+```
