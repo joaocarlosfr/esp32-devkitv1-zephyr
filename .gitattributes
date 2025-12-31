@@ -1,0 +1,16 @@
+# Ignore typical build directories and their contents
+build/** linguist-vendored
+*/build/** linguist-vendored
+
+# Ignore common CMake files and directories for language stats
+CMakeLists.txt linguist-documentation
+*.cmake linguist-documentation
+*.cmake.in linguist-documentation
+# The .cmake folder in the root is also often for configuration
+.cmake/** linguist-vendored
+
+# Ignore common generated files
+*.o linguist-vendored
+*.obj linguist-vendored
+*.dll linguist-vendored
+*.exe linguist-vendored
